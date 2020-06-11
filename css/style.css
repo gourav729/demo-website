@@ -1,4 +1,4 @@
-.title {
+.title :hover {
     color: red;
 }
 
@@ -8,4 +8,28 @@
 
 #contact-us {
     color: green;
+}
+
+li:first-child{
+    color: yellow
+}
+
+li:last-child{
+    color: aqua;
+}
+
+li:nth-child(2){
+    color: brown;
+}
+
+/* li :only-child{
+    color: green;
+} */
+
+#g-link :link{
+    color: blueviolet;
+}
+
+g-link :visited {
+    color: red;
 }
