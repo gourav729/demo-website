@@ -10,7 +10,7 @@
     color: green;
 }
 
-li:first-child{
+/* li:first-child{
     color: yellow
 }
 
@@ -20,16 +20,36 @@ li:last-child{
 
 li:nth-child(2){
     color: brown;
-}
+} */
 
 /* li :only-child{
     color: green;
 } */
 
-#g-link :link{
+/* #g-link:link{
     color: blueviolet;
 }
 
 g-link :visited {
+    color: red; 
+} */
+
+/* tags consective */
+h1 + a {
     color: red;
+}
+
+/* tags consective and under same parent */
+textarea ~ button {
+    color: purple;
+}
+
+/* every child element inside parent */
+/* ul > li{
+    color: green;
+} */
+
+/* parent to child and their child */
+ul li {
+    color: green;
 }
